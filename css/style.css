@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .fa-search{
+    position: absolute;
+} */
+
+
+.times{display: none;}
+.starttext{opacity: .5;}
+.v-up{
+    width: 40px;
+    height: 40px;
+}
+.autoModiefied{
+    max-height: 280px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+.card_elements{
+    display: none;
+}
+
+.syn{
+    cursor: pointer;
+    /* background-color: red; */
+}
+.img_set{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    display: none;
+}
